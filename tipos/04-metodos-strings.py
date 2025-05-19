@@ -11,7 +11,14 @@ print(animal.strip().capitalize())
 print(animal.title())
 # Remueve el primer espacio y el ultimo espacio del ultimo string
 print(animal.strip())
+print(animal.lstrip())  # Quita los espacios de la derecha
+print(animal.rstrip())  # Quita los espacios de la izquierda
 # Sirve para colocar comillas simples y llaves a las palabras de un string separado
-print(animal.rstrip())
-print(animal.lstrip())
-print(animal.rsplit())
+# print(animal.split())
+# Busca un criterio y devuelve su indice, si arroja número negativo es por que no lo encontro
+print(animal.find("CH"))
+# Reemplaza un caracter o palabra por otro, necesita minimo 2 argumentos.
+print(animal.replace("nCH", "j"))
+# Busca el criterio en caso de encontrarlo devuelve True, en caso de no encontrarlo devuelve False.
+print("nCH" in animal)
+print("nCH" not in animal)  # En caso de no encontrar el criterio devuelve true
