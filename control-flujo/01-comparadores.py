@@ -1,0 +1,11 @@
+print(1 > 2)  # Devuelve un valor false
+print(1 < 2)  # Devuelve un valor true
+print(1 <= 2)  # Devuelve un valor true
+print(1 >= 2)  # Devuelve un valor false
+print(2 >= 2)  # Devuelve un valor true
+print(2 <= 2)  # Devuelve un valor true
+print(2 == 2)  # Devuelve un valor true
+print(2 == 3)  # Devuelve un valor false
+print(2 == "2")  # Devuelve un valor false
+print(2 != "2")  # Devuelve un valor true
+print(2 != 2)  # Devuelve un valor false
