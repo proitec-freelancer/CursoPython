@@ -26,7 +26,7 @@
 
 buscar = 10
 
-for numero in range(5):  # 0, 1, 2, 3, 4 recorre e imprime los indices
+for numero in range(5):  # 0, 1, 2, 3, 4 recorre e imprime los iterables y las listas y tuplas
     print(numero)
     if numero == buscar:
         print("Encontrado", buscar)
@@ -34,3 +34,9 @@ for numero in range(5):  # 0, 1, 2, 3, 4 recorre e imprime los indices
 
 else:
     print("No encontré el número buscado xC")
+
+
+###########################################################################################
+
+for char in "Ultimate python":
+    print(char)
