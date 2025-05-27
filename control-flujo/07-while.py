@@ -18,7 +18,7 @@
 #     comando = input("$ ")
 #     print(comando)
 ############################# Loops infinito ###########################
-comando = ""
+# comando = ""
 
 while True:
     comando = input("$ ")
